@@ -1,0 +1,14 @@
+.place__image {
+  width: 48%;
+  padding-bottom: 48%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@media screen and (max-width: 485px) {
+  .place__image {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}

@@ -1,0 +1,14 @@
+.place__description {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  max-width: 484px;
+  margin: 0 0 48px;  
+}
+
+@media screen and (max-width: 485px) {
+  .place__description {
+    width: 90%;
+    margin: 32px auto 0;
+  }
+}
