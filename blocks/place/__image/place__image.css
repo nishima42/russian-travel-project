@@ -1,14 +1,38 @@
 .place__image {
-  width: 48%;
-  padding-bottom: 48%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top;
+  width: 460px;
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 1100px) {
+  .place__image {
+    width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .place__image {
+    width: 420px;
+    max-height: 420px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .place__image {
+    width: 400px;
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .place__image {
+    width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .place__image {
     width: 100%;
-    padding-bottom: 100%;
+    max-height: 767px;
   }
 }

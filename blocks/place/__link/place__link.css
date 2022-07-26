@@ -7,6 +7,7 @@
   font-weight: 400;
   text-decoration: underline;
   color: #FFFFFF;
+  width: fit-content;
 }
   
 .place__link:hover {
